@@ -16,7 +16,16 @@ a.t5308-logo-text {
 }
 
 .t5308-sidebar {
+    padding-top: auto;
     width: 120px ;
     min-height: 100%;
     float: left;
+}
+
+li.t5308-nav-header {
+    display: block;
+    height: 3em;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
