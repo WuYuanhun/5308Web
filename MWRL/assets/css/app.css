@@ -13,8 +13,7 @@ a.t5308-logo-text {
 
 .t5308-art {
     display: block;
-    background-color: aqua;
-    margin-bottom: 50px;
+    background-color: #eeeeee;
 }
 
 .t5308-sidebar {
@@ -64,14 +63,16 @@ li.t5308-nav-header {
 
 /*Slider protector*/
 .t5308-win-protector {
-    display: block;
-    height: 100%;
-    width: 90%;
-    padding: 1% 1% 0 1%;
+    padding: 1em 1em 1em 1em;
+    height: 25em;
     background-color: #cccccc;
 }
 
 /*body*/
 body.t5308-uni-bgc {
     background-color: #999999 !important;
+}
+
+.t5308-block-height {
+    height: 25em;
 }
