@@ -14,3 +14,9 @@ a.t5308-logo-text {
     background-color: aqua;
     margin-bottom: 50px;
 }
+
+.t5308-sidebar {
+    width: 120px ;
+    min-height: 100%;
+    float: left;
+}
