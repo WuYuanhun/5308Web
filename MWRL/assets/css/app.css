@@ -2,6 +2,7 @@
 
 a.t5308-logo-text {
    text-transform: uppercase;
+   padding-right: 2em;
 }
 
 .t5308-padding {
@@ -18,8 +19,9 @@ a.t5308-logo-text {
 .t5308-sidebar {
     padding-top: auto;
     width: 120px ;
-    min-height: 100%;
+    height: 100%;
     float: left;
+    margin-right: 2em;
 }
 
 li.t5308-nav-header {
@@ -28,4 +30,47 @@ li.t5308-nav-header {
     width: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
+    background-color: transparent;
+}
+
+.t5308-nav {
+    background-color: #eeeeee;
+    height: 100%
+}
+
+.t5308-nav > li > a:hover,
+.t5308-nav > li > a:focus {
+  text-decoration: none;
+  background-color: #999999 !important;
+}
+.t5308-nav > li.am-active > a,
+.t5308-nav > li.am-active > a:hover,
+.t5308-nav > li.am-active > a:focus {
+  color: #fff;
+  background-color: #0e90d2;
+  cursor: default;
+}
+.t5308-nav > li.am-disabled > a {
+  color: #999999;
+}
+.t5308-nav > li.am-disabled > a:hover,
+.t5308-nav > li.am-disabled > a:focus {
+  color: #999999;
+  text-decoration: none;
+  background-color: #999999;
+  cursor: not-allowed;
+}
+
+/*Slider protector*/
+.t5308-win-protector {
+    display: block;
+    height: 100%;
+    width: 90%;
+    padding: 1% 1% 0 1%;
+    background-color: #cccccc;
+}
+
+/*body*/
+body.t5308-uni-bgc {
+    background-color: #999999 !important;
 }
