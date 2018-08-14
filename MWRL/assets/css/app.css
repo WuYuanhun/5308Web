@@ -64,7 +64,7 @@ li.t5308-nav-header {
 /*Slider protector*/
 .t5308-win-protector {
     padding: 1em 1em 1em 1em;
-    height: 25em;
+    margin-left: 2em;
     background-color: #cccccc;
 }
 
@@ -76,3 +76,17 @@ body.t5308-uni-bgc {
 .t5308-block-height {
     height: 25em;
 }
+
+.t5308-art > .t5308-sm-4 {
+    width: 40%;
+}
+
+.t5308-art > .t5308-sm-right-4 {
+    left: 40%;
+}
+
+.t5308-art {
+    display: block;
+    position: relative;
+}
+
