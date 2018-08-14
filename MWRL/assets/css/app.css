@@ -84,11 +84,13 @@ body.t5308-uni-bgc {
 }
 
 .t5308-art > .t5308-sm-right-4 {
-    padding-left: 40%;
+    left: 45%;
+    width: 50%;
+    padding-left: 2em;
+    display: block;
 }
 
 .t5308-art {
     display: block;
-    width: auto;
 }
 
