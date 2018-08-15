@@ -1,4 +1,10 @@
-<!doctype <!DOCTYPE html>
+<?php
+  $targetUrl = $_GET['redUrl'];
+  $username = $_GET['username'];
+  $password = $_GET['password'];
+  
+?>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
