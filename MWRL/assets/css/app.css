@@ -98,3 +98,17 @@ body.t5308-uni-bgc {
     margin: 1em 1em 1em 1em;
 }
 
+
+/*t5308 login header*/
+.t5308-login-header {
+    text-align: center;
+}
+
+.t5308-login-header h1{
+    font-size: 200%;
+    color: #333333;
+    margin-top: 30px;
+}
+
+
+
