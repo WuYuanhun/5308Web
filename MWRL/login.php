@@ -1,3 +1,4 @@
+<<<<<<< HEAD:MWRL/login.php
 <?php
   $targetUrl = $_GET['redUrl'];
   $username = $_GET['username'];
